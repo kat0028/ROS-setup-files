@@ -1,4 +1,5 @@
 # ROS-setup-files
 .sh files for setting up new Linux VMs with ROS.  
 
-ROS2 setup for Ubuntu 20 tested.
+6/13/21
+All setup files tested with VMware Workstation
