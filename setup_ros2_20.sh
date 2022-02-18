@@ -21,7 +21,7 @@ sudo apt install ros-foxy-desktop -y
 source /opt/ros/foxy/setup.bash
 sudo apt install gazebo11 -y
 sudo apt install python3-colcon-common-extensions -y
-sudo apt install python3-rosdep2
+sudo apt install python3-rosdep2 -y
 echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 sudo apt autoremove -y
 reboot
