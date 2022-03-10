@@ -31,4 +31,4 @@ sudo apt install python3-rosdep2 -y
 echo "source /opt/ros/galactic/setup.bash" >> ~/.bashrc
 sudo apt autoremove -y
 
-echo
+reboot
