@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo snap install code --classic
 sudo apt update && sudo apt upgrade -y
 
 locale  # check for UTF-8
@@ -25,10 +24,6 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 sudo apt update
 
 sudo apt install ros-galactic-desktop -y
-sudo apt install gazebo11 -y
-sudo apt install python3-colcon-common-extensions -y
-sudo apt install python3-rosdep2 -y
+
 echo "source /opt/ros/galactic/setup.bash" >> ~/.bashrc
 sudo apt autoremove -y
-
-reboot
