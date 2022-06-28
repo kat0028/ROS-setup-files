@@ -25,5 +25,4 @@ sudo apt update
 
 sudo apt install ros-galactic-desktop -y
 
-echo "source /opt/ros/galactic/setup.bash" >> ~/.bashrc
 sudo apt autoremove -y

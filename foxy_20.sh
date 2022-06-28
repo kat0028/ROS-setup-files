@@ -19,6 +19,4 @@ sudo apt update
 sudo apt install ros-foxy-desktop -y
 source /opt/ros/foxy/setup.bash
 
-echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 sudo apt autoremove -y
-reboot
