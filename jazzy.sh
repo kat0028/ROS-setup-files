@@ -18,6 +18,6 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt install ros-jazzy-desktop -y
 
-echo "source /opt/ros/jazzy/setup.bash" > ~/.bashrc
+echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
 
 sudo apt install python3-colcon-common-extensions -y
